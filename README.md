@@ -1,6 +1,6 @@
 # godot-2d-platformer-prototype
 
-## first try of 2d platformer dash, double jump, wall cling and wall jump mechanics in Godot Engine v4.6 . **UNFINISHED GAME**
+## first try of 2d platformer dash, double jump, wall cling and wall jump mechanics in Godot Engine v4.6 . **UNFINISHED GAME, MECHANICS SHOWCASE**
 * pixel art and animations are assets that are mostly edited by me in Aseprite and Photoshop
 
 
