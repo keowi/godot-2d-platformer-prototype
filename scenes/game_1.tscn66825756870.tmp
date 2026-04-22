@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bqrlwlxglc6l8"]
+
+[ext_resource type="PackedScene" uid="uid://3fx4o2umbd8u" path="res://scenes/player.tscn" id="1_8lody"]
+[ext_resource type="Texture2D" uid="uid://du00psdi4dsuq" path="res://assets/valentin-pasque-retro-apo.jpg" id="2_7gu72"]
+[ext_resource type="PackedScene" uid="uid://tv1wr3oi1mea" path="res://scenes/level_root.tscn" id="2_pncae"]
+
+[node name="Game1" type="Node2D" unique_id=1469293282]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2023786657]
+offset_right = 2248.889
+offset_bottom = 1265.0
+texture = ExtResource("2_7gu72")
+expand_mode = 1
+
+[node name="player" parent="." unique_id=1624371620 instance=ExtResource("1_8lody")]
+position = Vector2(134, 522)
+
+[node name="LevelRoot" parent="." unique_id=918671585 instance=ExtResource("2_pncae")]
+position = Vector2(-241, 0)

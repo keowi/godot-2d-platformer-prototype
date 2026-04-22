@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://bqrlwlxglc6l8"]
+
+[ext_resource type="Texture2D" uid="uid://bm3s6ls7kud6l" path="res://assets/bg 2.png" id="1_7gu72"]
+[ext_resource type="PackedScene" uid="uid://3fx4o2umbd8u" path="res://scenes/player.tscn" id="1_8lody"]
+[ext_resource type="PackedScene" uid="uid://tv1wr3oi1mea" path="res://scenes/level_root.tscn" id="2_pncae"]
+
+[node name="Game1" type="Node2D" unique_id=1469293282]
+position = Vector2(1, -1)
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=2023786657]
+modulate = Color(0.269328, 0.71108675, 0.5449207, 1)
+offset_left = -2809.0
+offset_top = -1678.0
+offset_right = 7747.0
+offset_bottom = 4792.0
+texture = ExtResource("1_7gu72")
+stretch_mode = 1
+
+[node name="player" parent="." unique_id=1624371620 instance=ExtResource("1_8lody")]
+position = Vector2(134, 522)
+
+[node name="Camera2D" type="Camera2D" parent="player" unique_id=476764832]
+
+[node name="LevelRoot" parent="." unique_id=918671585 instance=ExtResource("2_pncae")]
+position = Vector2(-241, 0)
